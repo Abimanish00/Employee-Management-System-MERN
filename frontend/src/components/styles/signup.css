@@ -1,0 +1,84 @@
+
+.signup-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: #ffffff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.signup-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.signup-container label {
+  font-weight: 500;
+  margin-bottom: 6px;
+  display: block;
+  color: #444;
+}
+
+.signup-container input,
+.signup-container textarea
+ {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.signup-container textarea {
+  resize: vertical;
+}
+
+.gender-options {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.gender-options label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.team-options {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.team-options label {
+  
+  gap: 5px;
+}
+
+.signup-container .btn {
+  width: 100%;
+  padding: 10px;
+  background: #b7b3b5;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.signup-container .btn:hover {
+  background: #777576;
+}
+
+.error {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+p{
+  margin-top: 1rem;
+}

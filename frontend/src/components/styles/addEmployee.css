@@ -1,0 +1,81 @@
+/* styles/addemployee.css */
+
+.add-employee-container {
+  max-width: 700px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 30px 40px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.add-employee-container h2 {
+  text-align: center;
+  color: #000;
+  margin-bottom: 25px;
+}
+
+.employee-form .form-group {
+  margin-bottom: 15px;
+}
+
+.employee-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.employee-form input,
+.employee-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+}
+
+.employee-form input[type="file"] {
+  padding: 5px;
+}
+
+.image-preview {
+  margin-top: 10px;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid #aaa;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.btn-submit {
+  background: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+}
+
+.btn-cancel {
+  background: #888;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+}
+
+.btn-submit:hover {
+  background: #222;
+}
+
+.btn-cancel:hover {
+  background: #666;
+}
+.error-text {
+  color: red;
+  font-size: 0.85rem;
+  margin-top: 4px;
+}
