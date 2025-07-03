@@ -7,3 +7,4 @@ TECH STACK USED:
 | Database    | MongoDB           |
 | HTTP Client | Axios             |
 | API Type    | REST              |
+| Auth        | JWT               |
